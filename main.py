@@ -10,7 +10,7 @@ with open("configuration.json", "r") as config:
 	prefix = data["prefix"]
 	owner_id = data["owner_id"]
 
-
+#
 class Greetings(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
